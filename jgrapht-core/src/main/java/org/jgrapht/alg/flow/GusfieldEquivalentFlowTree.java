@@ -38,7 +38,7 @@ import org.jgrapht.graph.*;
  * The runtime complexity of this class is O((V-1)Q), where Q is the runtime complexity of the
  * algorithm used to compute s-t cuts in the graph. By default, this class uses the
  * {@link PushRelabelMFImpl} implementation to calculate minimum s-t cuts. This class has a runtime
- * complexity of O(V^3), resulting in a O(V^4) runtime complexity for the overal algorithm.
+ * complexity of O(V^3), resulting in a O(V^4) runtime complexity for the overall algorithm.
  *
  *
  * <p>

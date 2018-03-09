@@ -521,7 +521,7 @@ public class EdmondsMaximumCardinalityMatching<V, E>
         // matching missing v. Let A(G) be the set of vertices such that each v in A(G)
         // is a neighbor of D(G), but is not contained in D(G) itself. The set A(G) attains the
         // minimum in the Tutte-Berge Formula. It can be shown that
-        // A(G)= {vertices labeled odd in the Edmonds Blossomg-Shrinking algorithm}. Note: we only
+        // A(G)= {vertices labeled odd in the Edmonds Blossom-Shrinking algorithm}. Note: we only
         // take odd vertices that are not consumed by blossoms (every blossom is even).
         Set<V> oddVertices = vertexIndexMap
             .values().stream().filter(vx -> odd[vx] != NIL && !bridges.containsKey(vx))
